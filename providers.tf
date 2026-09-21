@@ -16,9 +16,10 @@ provider "aws" {
   # tagged as Terraform-managed, which is exactly what the auditor wants to see.
   default_tags {
     tags = {
-      Project   = "ubuntu-retail-webapp"
-      ManagedBy = "Terraform"
-      Owner     = "michael-chileshe"
+      Project    = "ubuntu-retail-webapp"
+      ManagedBy  = "Terraform"
+      Owner      = "michael-chileshe"
+      CostCenter = "retail-ops"
     }
   }
 }
