@@ -1,0 +1,17 @@
+# Terraform local state and working dirs
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# tfvars may hold your IP — keep local; commit only the .example
+*.tfvars
+!*.tfvars.example
+
+# Keep the dependency lock file (best practice to COMMIT it):
+!.terraform.lock.hcl
+
+# CLI config
+.terraformrc
+terraform.rc

@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars and set your GitHub owner (and repo, if you renamed it).
+github_owner = "your-github-username"
+github_repo  = "aws-terraform-iac-pipeline"
